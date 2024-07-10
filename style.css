@@ -81,6 +81,7 @@ footer .footer-link {
   background: rgba(13, 19, 33, 0.02);
   margin: 0 auto;
   margin-bottom: 170px;
+  border-radius: 16px;
 }
 .devlopment-container {
   padding: 80px 97px 80px 97px;
@@ -216,9 +217,12 @@ footer .footer-link {
 .card-container {
   display: flex;
   gap: 24px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .card {
   padding: 40px;
+  width: 364px;
 }
 .card h4 {
   color: rgb(13, 19, 33);
@@ -249,4 +253,51 @@ footer .footer-link {
 .card3 {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
+}
+/* support section design */
+.support {
+  width: 1140px;
+  height: 313px;
+  margin: 0 auto;
+  background: url("assets/handshake.jpg") , rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+.support-container {
+  padding: 64px 48px 64px 48px;
+  text-align: center;
+}
+.support-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.support-container p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+.support-container button {
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 600;
+}
+.support-container input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+  width: 540px;
 }
