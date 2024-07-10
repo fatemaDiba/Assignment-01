@@ -103,6 +103,7 @@ footer .footer-link {
 }
 .content-part .coding {
   display: flex;
+  border-radius: 16px;
   background: linear-gradient(
     90deg,
     rgb(255, 255, 255),
@@ -110,6 +111,21 @@ footer .footer-link {
   );
   margin-bottom: 32px;
   padding: 48px;
+  width: 946px;
+  justify-content: space-between;
+}
+.second-card {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  flex-direction: row-reverse;
+  justify-content: flex-end !important;
+  gap: 32px;
+}
+.coding-text {
+  max-width: 468px;
 }
 .coding h3 {
   color: rgba(13, 19, 33, 0.7);
